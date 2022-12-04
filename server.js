@@ -1,6 +1,9 @@
 const express = require('express');
 const app = express();
 const fs = require('fs');
+// TODO 
+// const compression = require('compression')
+// app.use(compression()) // 开启gzip压缩
 
 app.use(express.static('build'));
 

@@ -3,6 +3,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
+  // TODO 
+  // mode: "production",
   mode: "development",
   devtool: false,
   context: __dirname,
